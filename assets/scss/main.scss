@@ -1,4 +1,3 @@
-@use "bootstrap/scss/bootstrap";
 
 
 @use "includes/components/table";
@@ -16,8 +15,11 @@
 @use "includes/icons/award-icons";
 @use "includes/icons/flag-icons";
 
-@import "~bootswatch/dist/vapor/bootswatch";
 
+// https://github.com/thomaspark/bootswatch/issues/1202
+@import "node_modules/bootswatch/dist/vapor/variables";
+@import "bootstrap/scss/bootstrap";
+@import "node_modules/bootswatch/dist/vapor/bootswatch";
 
 h1,
 h2 {
