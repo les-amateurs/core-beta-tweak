@@ -36,6 +36,10 @@ export default defineConfig({
               dest: "static/webfonts",
             },
             {
+              src: "./node_modules/@fontsource/press-start-2p/files/*.woff",
+              dest: "static/webfonts",
+            },
+            {
               src: "./assets/img/**",
               dest: "static/img",
             },

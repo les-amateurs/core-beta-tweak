@@ -3,21 +3,21 @@
     "file": "assets/press-start-2p-greek-400-normal.f68a26e6.woff2",
     "src": "node_modules/@fontsource/press-start-2p/files/press-start-2p-greek-400-normal.woff2"
   },
-  "node_modules/@fontsource/press-start-2p/files/press-start-2p-latin-ext-400-normal.woff2": {
-    "file": "assets/press-start-2p-latin-ext-400-normal.a22d18e5.woff2",
-    "src": "node_modules/@fontsource/press-start-2p/files/press-start-2p-latin-ext-400-normal.woff2"
+  "node_modules/@fontsource/press-start-2p/files/press-start-2p-cyrillic-400-normal.woff2": {
+    "file": "assets/press-start-2p-cyrillic-400-normal.31acfe4d.woff2",
+    "src": "node_modules/@fontsource/press-start-2p/files/press-start-2p-cyrillic-400-normal.woff2"
   },
   "node_modules/@fontsource/press-start-2p/files/press-start-2p-cyrillic-ext-400-normal.woff2": {
     "file": "assets/press-start-2p-cyrillic-ext-400-normal.820a0a74.woff2",
     "src": "node_modules/@fontsource/press-start-2p/files/press-start-2p-cyrillic-ext-400-normal.woff2"
   },
+  "node_modules/@fontsource/press-start-2p/files/press-start-2p-latin-ext-400-normal.woff2": {
+    "file": "assets/press-start-2p-latin-ext-400-normal.a22d18e5.woff2",
+    "src": "node_modules/@fontsource/press-start-2p/files/press-start-2p-latin-ext-400-normal.woff2"
+  },
   "node_modules/@fontsource/press-start-2p/files/press-start-2p-latin-400-normal.woff2": {
     "file": "assets/press-start-2p-latin-400-normal.96568637.woff2",
     "src": "node_modules/@fontsource/press-start-2p/files/press-start-2p-latin-400-normal.woff2"
-  },
-  "node_modules/@fontsource/press-start-2p/files/press-start-2p-cyrillic-400-normal.woff2": {
-    "file": "assets/press-start-2p-cyrillic-400-normal.31acfe4d.woff2",
-    "src": "node_modules/@fontsource/press-start-2p/files/press-start-2p-cyrillic-400-normal.woff2"
   },
   "node_modules/@fontsource/press-start-2p/files/press-start-2p-all-400-normal.woff": {
     "file": "assets/press-start-2p-all-400-normal.f831461d.woff",
