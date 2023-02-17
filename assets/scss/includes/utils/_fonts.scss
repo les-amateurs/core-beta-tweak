@@ -34,8 +34,8 @@ $fa-font-path: "../webfonts";
   font-style: normal;
   font-display: auto;
   src: local('Monocraft'),
-       url('/webfonts/Monocraft.ttf') format('truetype'),
-       url('/webfonts/Monocraft.otf') format('opentype');
+       url('../webfonts/Monocraft.ttf') format('truetype'),
+       url('../webfonts/Monocraft.otf') format('opentype');
   unicode-range: U+000-5FF; /* Latin glyphs */
 }
 
