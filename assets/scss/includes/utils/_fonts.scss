@@ -14,7 +14,7 @@
 // @include Lato.fontFace($fontDir: "../webfonts", $weight: 400);
 // @include Lato.fontFace($fontDir: "../webfonts", $weight: 700);
 
-// NEW (REtro font) : Include both normal and bold weights
+// NEW (Retro font) : Include both normal and bold weights
 @include Press.fontFace($fontDir: "../webfonts", $weight: 400);
 @include Press.fontFace($fontDir: "../webfonts", $weight: 700);
 
