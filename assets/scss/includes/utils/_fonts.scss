@@ -8,13 +8,14 @@
 
 // @use "~/@fontsource/lato/scss/mixins" as Lato;
 // @use "~/@fontsource/raleway/scss/mixins" as Raleway;
-@import "@fontsource/press-start-2p";
+// @use "~/@fontsource/press-start-2p/scss/mixins" as Press;
+// @import "@fontsource/press-start-2p";
 
 // OLD: Include both normal and bold weights
 // @include Lato.fontFace($fontDir: "../webfonts", $weight: 400);
 // @include Lato.fontFace($fontDir: "../webfonts", $weight: 700);
 
-// NEW (Retro font) : Include both normal and bold weights
+// NEWER (Retro font) : Include both normal and bold weights
 // @include Press.fontFace($fontDir: "../webfonts", $weight: 400);
 // @include Press.fontFace($fontDir: "../webfonts", $weight: 700);
 
@@ -28,12 +29,22 @@ $fa-font-path: "../webfonts";
 // @import "~/@fontsource/lato/index.css";
 // @import "~/@fontsource/lato/index.css";
 
+@font-face {
+  font-family: 'Monocraft';
+  font-style: normal;
+  font-display: auto;
+  src: local('Monocraft'),
+       url('/webfonts/Monocraft.ttf') format('truetype'),
+       url('/webfonts/Monocraft.otf') format('opentype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
 html,
 body,
 .container {
-  font-family: "Press Start 2P", sans-serif;
+  font-family: "Monocraft", sans-serif;
 }
 
 .jumbotron .container {
-  font-family: "Press Start 2P", sans-serif;
+  font-family: "Monocraft", sans-serif;
 }
