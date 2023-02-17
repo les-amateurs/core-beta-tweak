@@ -87,3 +87,8 @@ select.form-control {
   box-shadow: 0 0 0 0.1rem #a3d39c;
   transition: background-color 0.3s, border-color 0.3s;
 }
+
+/** Notify annocue fix **/
+span[data-time]{
+  color: white;
+}
