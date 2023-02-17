@@ -1,6 +1,5 @@
-@import "~bootswatch/dist/vapor/bootswatch";
-@import "bootstrap/scss/bootstrap";
-@import "~bootswatch/dist/vapor/bootswatch";
+@use "bootstrap/scss/bootstrap";
+
 
 @use "includes/components/table";
 @use "includes/components/jumbotron";
@@ -16,6 +15,9 @@
 
 @use "includes/icons/award-icons";
 @use "includes/icons/flag-icons";
+
+@import "~bootswatch/dist/vapor/bootswatch";
+
 
 h1,
 h2 {
