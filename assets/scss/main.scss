@@ -1,6 +1,6 @@
-@use "bootstrap/scss/bootstrap" as * with (
-  $info: #5c728f
-);
+@import "~bootswatch/dist/vapor/bootswatch";
+@import "bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/vapor/bootswatch";
 
 @use "includes/components/table";
 @use "includes/components/jumbotron";
